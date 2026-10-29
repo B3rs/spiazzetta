@@ -1,0 +1,33 @@
+# Build output
+.gradle/
+build/
+app/build/
+local.properties
+.kotlin/
+*.apk
+*.aab
+*.keystore
+*.jks
+keystore.properties
+
+# Signing material never leaves the machine
+keystore/
+release/
+
+# Local toolchain installed by tools/provision.sh (JDK, Android SDK, Gradle, caches)
+tools/jdk-21/
+tools/sdk/
+tools/gradle-8.9/
+tools/gradle-home/
+tools/cmdline-tools-unz/
+tools/*.zip
+tools/*.tar.gz
+
+# Extracted vendor web app: proprietary code of the stove maker, never redistributed
+docs/protocol/source-snapshot/
+
+# QA artefacts: screenshots of a private stove
+evidence/
+
+# Session plans and notes
+.omo/

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spiazzetta</string>
+
+    <string name="login_subtitle">Sign in with your MyPiazzetta account to control your stove.</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_show_password">Show password</string>
+    <string name="login_hide_password">Hide password</string>
+    <string name="login_sign_in">Sign in</string>
+    <string name="login_note">Your credentials go straight to the Micronova Agua IoT cloud. This app stores them on the device only.</string>
+
+    <string name="stoves_title">Your stoves</string>
+    <string name="stoves_empty">No stove is linked to this account yet. Add it in the MyPiazzetta app first, then come back.</string>
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_running">Running</string>
+    <string name="status_alarm">Alarm</string>
+    <string name="readonly_pill">Read-only</string>
+    <string name="readonly_refused">Read-only mode: this build never sends commands to the stove.</string>
+
+    <string name="state_off">Off</string>
+    <string name="state_starting">Starting</string>
+    <string name="state_working">Working</string>
+    <string name="state_modulation">Modulating</string>
+    <string name="state_cleaning">Cleaning</string>
+    <string name="state_standby">Standby</string>
+    <string name="state_alarm">Alarm</string>
+    <string name="state_unknown">Unknown</string>
+
+    <string name="dashboard_room_temperature">Room temperature</string>
+    <string name="dashboard_setpoint">Target temperature</string>
+    <string name="dashboard_fan_speed">Fan speed</string>
+    <string name="dashboard_fan_speed_hint">Every change is sent to the stove and verified.</string>
+    <string name="dashboard_power_level">Power level</string>
+    <string name="dashboard_eco">Eco mode</string>
+
+    <string name="dashboard_air">Air</string>
+    <string name="dashboard_natural_mode">Natural mode</string>
+    <string name="dashboard_duct_right">Right duct</string>
+    <string name="dashboard_duct_left">Left duct</string>
+    <string name="dashboard_multifire">Multifire</string>
+
+    <string name="dashboard_stove_status">Stove status</string>
+    <string name="state_flue_temperature">Flue gas</string>
+    <string name="state_pellet">Pellet</string>
+    <string name="pellet_ok">OK</string>
+    <string name="pellet_low">Low</string>
+    <string name="pellet_empty">Empty</string>
+    <string name="state_thermostat">External thermostat</string>
+    <string name="state_clock">Stove clock</string>
+    <string name="state_service">Service hours</string>
+    <string name="state_service_value">%1$d / %2$d h</string>
+    <string name="state_service_hours">%1$d h</string>
+    <string name="state_firmware">Firmware</string>
+
+    <string name="dashboard_chrono">Weekly programs</string>
+    <string name="chrono_program">P%1$d</string>
+    <string name="chrono_range">%1$s – %2$s</string>
+
+    <string name="warning_power_failure">Power failure</string>
+    <string name="warning_power_failure_restart">Restarted after a power failure</string>
+    <string name="warning_auger_load">Auger load</string>
+    <string name="warning_service_due">Service due</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_decrease">Decrease</string>
+    <string name="action_increase">Increase</string>
+    <string name="action_power_on">Turn on</string>
+    <string name="action_power_off">Turn off</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_language">Language</string>
+
+    <string name="setting_fan_speed">Fan speed</string>
+    <string name="setting_setpoint">Target temperature</string>
+    <string name="setting_power_level">Power level</string>
+    <string name="setting_power">Power</string>
+    <string name="setting_eco">Eco mode</string>
+    <string name="setting_natural_mode">Natural mode</string>
+    <string name="setting_duct_right">Right duct</string>
+    <string name="setting_duct_left">Left duct</string>
+    <string name="setting_multifire">Multifire</string>
+
+    <string name="banner_applied">%1$s set to %2$s and confirmed by the stove.</string>
+    <string name="banner_not_applied">%1$s was not applied (%2$s) after %3$d attempts. The stove did not confirm the change.</string>
+    <string name="banner_not_applied_offline">%1$s was not applied: the stove is offline.</string>
+
+    <string name="error_network">Cannot reach the Agua cloud. Check your connection.</string>
+    <string name="error_unauthorized">Email or password not accepted.</string>
+    <string name="error_session_expired">Session expired. Sign in again.</string>
+    <string name="error_server">The cloud returned an error (%1$d).</string>
+    <string name="error_invalid_response">Unexpected answer from the cloud.</string>
+    <string name="error_stove_offline">The stove is offline. Check its Wi-Fi connection.</string>
+    <string name="error_stove_rejected">The stove rejected the command.</string>
+    <string name="error_unsupported">This stove does not support that setting.</string>
+    <string name="error_unknown">Something went wrong.</string>
+
+    <!-- Explanations: what each control does and what happens at the limit -->
+    <string name="explain_setpoint">Set the room temperature you want. When it is reached the stove lowers the flame and holds; it starts again when the room drops 1-2 °C below.</string>
+    <string name="explain_fan">How much hot air is pushed into the room. Higher warms the room faster, with more noise.</string>
+    <string name="explain_power">Flame level and pellet consumption. It decides how quickly the room heats up.</string>
+    <string name="explain_air">Where the heat goes. Natural convection keeps the stove quiet; the ducts send hot air to another room.</string>
+    <string name="explain_natural">Natural convection: the fan no longer pushes air, so the stove is quieter and the heat spreads on its own.</string>
+    <string name="explain_multifire">Second combustion chamber level. 0 turns it off.</string>
+    <string name="explain_stove_status">Readings the stove reports about itself, straight from its own registers.</string>
+    <string name="explain_chrono">Programs stored in the stove. Muted rows are switched off; they can only be changed on the stove itself.</string>
+
+    <string name="status_heating">Heating · %1$s °C to go</string>
+    <string name="status_at_target">Target reached · holding</string>
+    <string name="status_updated_now">Updated just now</string>
+    <string name="status_updated_seconds">Updated %1$d s ago</string>
+    <string name="status_updated_minutes">Updated %1$d min ago</string>
+
+    <string name="activity_title">Activity</string>
+    <string name="activity_pending">Sending to the stove…</string>
+    <string name="activity_waiting">Waiting for the stove to confirm…</string>
+    <string name="activity_confirmed">Confirmed</string>
+    <string name="activity_failed">Not applied</string>
+    <string name="activity_attempts">%1$d attempts</string>
+    <string name="activity_clear">Clear</string>
+
+    <string name="error_bridge">The cloud answered %1$s%2$s.</string>
+    <string name="error_read_only_hint">Read-only build: commands are disabled.</string>
+    <string name="login_error_prefix">Sign-in failed</string>
+
+    <string name="state_holding">Holding</string>
+    <string name="unit_celsius">°C</string>
+
+    <!-- Panel customisation -->
+    <string name="action_customise">Panels</string>
+    <string name="customise_title">Which panels do you want?</string>
+    <string name="customise_hint">Choose what the dashboard shows and in which order.</string>
+    <string name="customise_up">Move up</string>
+    <string name="customise_down">Move down</string>
+    <string name="customise_close">Done</string>
+    <string name="section_temperature">Target temperature</string>
+    <string name="section_power">Power level</string>
+    <string name="section_multifire">Multifire</string>
+    <string name="section_natural">Natural ventilation</string>
+    <string name="section_ducts">Ducting</string>
+    <string name="section_status">Stove status</string>
+    <string name="section_chrono">Weekly programmes</string>
+    <string name="explain_natural_long">Natural convection: the ventilation fan stays off, so the stove is quieter and the heat rises on its own. It is a different system from the ducts.</string>
+    <string name="explain_ducts">The ducts are separate fan outlets that send hot air to other rooms. If you only heat one room you can hide this panel.</string>
+    <string name="explain_multifire_long">Multifire is the multi-fuel combustion setting (pellet/wood). Your stove sends no text labels for its values, only 0-3; with natural mode on and power 4 the minimum allowed becomes 1.</string>
+
+    <string name="chrono_edit">Edit</string>
+    <string name="chrono_days">Days</string>
+    <string name="chrono_start">Start</string>
+    <string name="chrono_stop">Stop</string>
+    <string name="chrono_temperature_label">Temperature</string>
+    <string name="chrono_power_label">Power</string>
+    <string name="chrono_disable_one">Turn this programme off</string>
+    <string name="chrono_disable_all">Turn all programmes off</string>
+    <string name="chrono_editor_title">Programme P%1$d</string>
+    <string name="chrono_empty_slot">Not set</string>
+    <string name="day_mon">M</string>
+    <string name="day_tue">T</string>
+    <string name="day_wed">W</string>
+    <string name="day_thu">T</string>
+    <string name="day_fri">F</string>
+    <string name="day_sat">S</string>
+    <string name="day_sun">S</string>
+    <string name="explain_chrono_edit">The programmes live in the stove. Each change is sent and verified like any other command.</string>
+
+    <string name="section_fan">Fan speed</string>
+    <string name="section_combustion">Combustion</string>
+    <string name="explain_combustion">Pellet-quality correction for the fuel you are burning: -5 leans the mixture out, +5 feeds more. Move one step at a time and judge after a couple of hours.</string>
+    <string name="quality_low">Power 1-2</string>
+    <string name="quality_high">Power 3-4</string>
+    <string name="registers_title">All registers</string>
+    <string name="registers_hint">Exactly what the stove reports, with the register key and raw value. Use it to map a stove this app does not know yet.</string>
+    <string name="registers_export">Export JSON</string>
+    <string name="registers_open">See all registers</string>
+    <string name="registers_share_title">Spiazzetta register dump</string>
+    <string name="action_close">Close</string>
+
+    <!-- Disclaimer shown before any other screen; must be accepted explicitly -->
+    <string name="disclaimer_title">Unofficial app - read before using</string>
+    <string name="disclaimer_body">Spiazzetta is an unofficial app. It is not made, endorsed, or supported by Piazzetta, Micronova, or Omniaweb.\nIt is provided as is, without warranty of any kind, express or implied, including fitness for a particular purpose.\nThis app sends real control commands to a real heating appliance. Wrong settings can cause malfunction, damage to the appliance, higher consumption, or unsafe operation.\nThe safety devices on your stove and the instructions from the manufacturer always take precedence. Never bypass them.\nYou use this app entirely at your own risk. You are solely responsible for any damage to the appliance, your property, or people, and for compliance with local law and with the terms of your appliance warranty.\nThe author accepts no liability for any direct, indirect, incidental, or consequential damage, loss of data, or injury arising from the use of this app.\nYou must own the stove, or be authorized by its owner, to use this app.</string>
+    <string name="disclaimer_check">I have read and understood this disclaimer</string>
+    <string name="disclaimer_accept">I understand</string>
+    <string name="disclaimer_footnote">Your acceptance is saved on this device with the disclaimer version and the time. A new disclaimer version asks you to accept again.</string>
+</resources>

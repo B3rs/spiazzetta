@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spiazzetta</string>
+
+    <string name="login_subtitle">Accedi con il tuo account MyPiazzetta per gestire la stufa.</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_show_password">Mostra password</string>
+    <string name="login_hide_password">Nascondi password</string>
+    <string name="login_sign_in">Accedi</string>
+    <string name="login_note">Le credenziali vengono inviate direttamente al cloud Micronova Agua IoT. Questa app le conserva solo sul dispositivo.</string>
+
+    <string name="stoves_title">Le tue stufe</string>
+    <string name="stoves_empty">Nessuna stufa è associata a questo account. Aggiungila prima dall\'app MyPiazzetta, poi torna qui.</string>
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="status_connecting">Connessione…</string>
+    <string name="status_running">In funzione</string>
+    <string name="status_alarm">Allarme</string>
+    <string name="readonly_pill">Sola lettura</string>
+    <string name="readonly_refused">Modalità sola lettura: questa versione non invia comandi alla stufa.</string>
+
+    <string name="state_off">Spenta</string>
+    <string name="state_starting">Accensione</string>
+    <string name="state_working">In funzione</string>
+    <string name="state_modulation">Modulazione</string>
+    <string name="state_cleaning">Pulizia</string>
+    <string name="state_standby">Standby</string>
+    <string name="state_alarm">Allarme</string>
+    <string name="state_unknown">Sconosciuto</string>
+
+    <string name="dashboard_room_temperature">Temperatura ambiente</string>
+    <string name="dashboard_setpoint">Temperatura impostata</string>
+    <string name="dashboard_fan_speed">Velocità ventola</string>
+    <string name="dashboard_fan_speed_hint">Ogni modifica viene inviata alla stufa e verificata.</string>
+    <string name="dashboard_power_level">Potenza</string>
+    <string name="dashboard_eco">Modalità Eco</string>
+
+    <string name="dashboard_air">Aria</string>
+    <string name="dashboard_natural_mode">Modalità naturale</string>
+    <string name="dashboard_duct_right">Canalizzazione destra</string>
+    <string name="dashboard_duct_left">Canalizzazione sinistra</string>
+    <string name="dashboard_multifire">Multifire</string>
+
+    <string name="dashboard_stove_status">Stato stufa</string>
+    <string name="state_flue_temperature">Fumi</string>
+    <string name="state_pellet">Pellet</string>
+    <string name="pellet_ok">OK</string>
+    <string name="pellet_low">Basso</string>
+    <string name="pellet_empty">Vuoto</string>
+    <string name="state_thermostat">Termostato esterno</string>
+    <string name="state_clock">Orologio stufa</string>
+    <string name="state_service">Ore di servizio</string>
+    <string name="state_service_value">%1$d / %2$d h</string>
+    <string name="state_service_hours">%1$d h</string>
+    <string name="state_firmware">Firmware</string>
+
+    <string name="dashboard_chrono">Programmi settimanali</string>
+    <string name="chrono_program">P%1$d</string>
+    <string name="chrono_range">%1$s – %2$s</string>
+
+    <string name="warning_power_failure">Mancata tensione</string>
+    <string name="warning_power_failure_restart">Riavvio dopo mancanza tensione</string>
+    <string name="warning_auger_load">Carico coclea</string>
+    <string name="warning_service_due">Manutenzione da fare</string>
+
+    <string name="action_refresh">Aggiorna</string>
+    <string name="action_decrease">Diminuisci</string>
+    <string name="action_increase">Aumenta</string>
+    <string name="action_power_on">Accendi</string>
+    <string name="action_power_off">Spegni</string>
+    <string name="action_disconnect">Disconnetti</string>
+    <string name="action_retry">Riprova</string>
+    <string name="action_dismiss">Chiudi</string>
+    <string name="action_language">Lingua</string>
+
+    <string name="setting_fan_speed">Velocità ventola</string>
+    <string name="setting_setpoint">Temperatura impostata</string>
+    <string name="setting_power_level">Potenza</string>
+    <string name="setting_power">Accensione</string>
+    <string name="setting_eco">Modalità Eco</string>
+    <string name="setting_natural_mode">Modalità naturale</string>
+    <string name="setting_duct_right">Canalizzazione destra</string>
+    <string name="setting_duct_left">Canalizzazione sinistra</string>
+    <string name="setting_multifire">Multifire</string>
+
+    <string name="banner_applied">%1$s impostata su %2$s e confermata dalla stufa.</string>
+    <string name="banner_not_applied">%1$s non è stata applicata (%2$s) dopo %3$d tentativi. La stufa non ha confermato la modifica.</string>
+    <string name="banner_not_applied_offline">%1$s non è stata applicata: la stufa è offline.</string>
+
+    <string name="error_network">Impossibile raggiungere il cloud Agua. Controlla la connessione.</string>
+    <string name="error_unauthorized">Email o password non accettate.</string>
+    <string name="error_session_expired">Sessione scaduta. Accedi di nuovo.</string>
+    <string name="error_server">Il cloud ha restituito un errore (%1$d).</string>
+    <string name="error_invalid_response">Risposta inattesa dal cloud.</string>
+    <string name="error_stove_offline">La stufa è offline. Controlla la connessione Wi-Fi.</string>
+    <string name="error_stove_rejected">La stufa ha rifiutato il comando.</string>
+    <string name="error_unsupported">Questa stufa non supporta tale impostazione.</string>
+    <string name="error_unknown">Si è verificato un problema.</string>
+
+    <!-- Spiegazioni: cosa fa ogni comando e cosa succede al limite -->
+    <string name="explain_setpoint">Imposta la temperatura che vuoi in stanza. Quando la raggiunge, la stufa abbassa la fiamma e la mantiene; riparte quando scende di 1-2 °C.</string>
+    <string name="explain_fan">Quanta aria calda viene spinta in stanza. Più alta scalda prima, ma fa più rumore.</string>
+    <string name="explain_power">Livello di fiamma e consumo di pellet: decide quanto in fretta sale la temperatura.</string>
+    <string name="explain_air">Dove va il calore. La convezione naturale tiene la stufa silenziosa; le canalizzazioni mandano aria calda in un\'altra stanza.</string>
+    <string name="explain_natural">Convezione naturale: la ventola non spinge più aria, quindi la stufa è più silenziosa e il calore si diffonde da solo.</string>
+    <string name="explain_multifire">Livello della seconda camera di combustione. 0 la spegne.</string>
+    <string name="explain_stove_status">Letture che la stufa riporta su se stessa, prese dai suoi registri.</string>
+    <string name="explain_chrono">Programmi memorizzati nella stufa. Le righe spente sono in grigio; si modificano solo dalla stufa.</string>
+
+    <string name="status_heating">In riscaldamento · mancano %1$s °C</string>
+    <string name="status_at_target">Temperatura raggiunta · in mantenimento</string>
+    <string name="status_updated_now">Aggiornato ora</string>
+    <string name="status_updated_seconds">Aggiornato %1$d s fa</string>
+    <string name="status_updated_minutes">Aggiornato %1$d min fa</string>
+
+    <string name="activity_title">Attività</string>
+    <string name="activity_pending">Invio alla stufa…</string>
+    <string name="activity_waiting">In attesa che la stufa confermi…</string>
+    <string name="activity_confirmed">Confermato</string>
+    <string name="activity_failed">Non applicato</string>
+    <string name="activity_attempts">%1$d tentativi</string>
+    <string name="activity_clear">Pulisci</string>
+
+    <string name="error_bridge">Il cloud ha risposto %1$s%2$s.</string>
+    <string name="error_read_only_hint">Versione in sola lettura: i comandi sono disattivati.</string>
+    <string name="login_error_prefix">Accesso non riuscito</string>
+
+    <string name="state_holding">Mantenimento</string>
+    <string name="unit_celsius">°C</string>
+
+    <!-- Personalizzazione pannelli -->
+    <string name="action_customise">Pannelli</string>
+    <string name="customise_title">Quali pannelli vuoi vedere?</string>
+    <string name="customise_hint">Scegli cosa mostra la dashboard e in che ordine.</string>
+    <string name="customise_up">Sposta su</string>
+    <string name="customise_down">Sposta giù</string>
+    <string name="customise_close">Fatto</string>
+    <string name="section_temperature">Temperatura impostata</string>
+    <string name="section_power">Potenza</string>
+    <string name="section_multifire">Multifire</string>
+    <string name="section_natural">Ventilazione naturale</string>
+    <string name="section_ducts">Canalizzazioni</string>
+    <string name="section_status">Stato stufa</string>
+    <string name="section_chrono">Programmi settimanali</string>
+    <string name="explain_natural_long">Convezione naturale: la ventola di ventilazione resta ferma, quindi la stufa è più silenziosa e il calore sale da solo. È un sistema diverso dalle canalizzazioni.</string>
+    <string name="explain_ducts">Le canalizzazioni sono uscite con ventola separata che mandano aria calda in altre stanze. Se scaldi una stanza sola puoi nascondere questo pannello.</string>
+    <string name="explain_multifire_long">Multifire è l\'impostazione di combustione multi-combustibile (pellet/legna). La stufa non manda etichette per i valori, solo 0-3; con la modalità naturale attiva e potenza 4 il minimo consentito diventa 1.</string>
+
+    <string name="chrono_edit">Modifica</string>
+    <string name="chrono_days">Giorni</string>
+    <string name="chrono_start">Inizio</string>
+    <string name="chrono_stop">Fine</string>
+    <string name="chrono_temperature_label">Temperatura</string>
+    <string name="chrono_power_label">Potenza</string>
+    <string name="chrono_disable_one">Spegni questo programma</string>
+    <string name="chrono_disable_all">Spegni tutti i programmi</string>
+    <string name="chrono_editor_title">Programma P%1$d</string>
+    <string name="chrono_empty_slot">Non impostato</string>
+    <string name="day_mon">L</string>
+    <string name="day_tue">M</string>
+    <string name="day_wed">M</string>
+    <string name="day_thu">G</string>
+    <string name="day_fri">V</string>
+    <string name="day_sat">S</string>
+    <string name="day_sun">D</string>
+    <string name="explain_chrono_edit">I programmi vivono nella stufa. Ogni modifica viene inviata e verificata come qualsiasi altro comando.</string>
+
+    <string name="section_fan">Velocità ventola</string>
+    <string name="section_combustion">Combustione</string>
+    <string name="explain_combustion">Correzione qualità pellet per il combustibile che usi: -5 smagrisce la miscela, +5 dà più combustibile. Un passo alla volta, e giudica dopo un paio d\'ore.</string>
+    <string name="quality_low">Potenza 1-2</string>
+    <string name="quality_high">Potenza 3-4</string>
+    <string name="registers_title">Tutti i registri</string>
+    <string name="registers_hint">Esattamente quello che riporta la stufa, con la chiave del registro e il valore grezzo. Serve per mappare una stufa che l\'app non conosce ancora.</string>
+    <string name="registers_export">Esporta JSON</string>
+    <string name="registers_open">Vedi tutti i registri</string>
+    <string name="registers_share_title">Dump registri Spiazzetta</string>
+    <string name="action_close">Chiudi</string>
+
+    <!-- Avviso mostrato prima di ogni altra schermata; va accettato esplicitamente -->
+    <string name="disclaimer_title">App non ufficiale: leggi prima di usare</string>
+    <string name="disclaimer_body">Spiazzetta è un\'app non ufficiale. Non è realizzata, approvata o supportata da Piazzetta, Micronova o Omniaweb.\nViene fornita così com\'è, senza alcuna garanzia, esplicita o implicita, compresa l\'idoneità a uno scopo particolare.\nQuesta app invia comandi reali a una stufa vera. Impostazioni sbagliate possono causare malfunzionamenti, danni alla stufa, consumi più alti o un funzionamento non sicuro.\nI dispositivi di sicurezza della stufa e le istruzioni del costruttore vengono sempre prima. Non aggirarli.\nUsi questa app a tuo rischio e pericolo. Sei l\'unico responsabile di eventuali danni alla stufa, alla tua proprietà o alle persone, e del rispetto delle leggi locali e delle condizioni della garanzia.\nL\'autore non si assume alcuna responsabilità per danni diretti, indiretti, incidentali o consequenziali, perdita di dati o lesioni derivanti dall\'uso di questa app.\nPer usare questa app devi essere il proprietario della stufa oppure avere la sua autorizzazione.</string>
+    <string name="disclaimer_check">Ho letto e capito questo avviso</string>
+    <string name="disclaimer_accept">Ho capito</string>
+    <string name="disclaimer_footnote">L\'accettazione viene salvata su questo dispositivo con la versione del disclaimer e l\'ora. Una nuova versione del disclaimer chiede di accettare di nuovo.</string>
+</resources>
