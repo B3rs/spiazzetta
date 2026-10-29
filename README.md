@@ -14,6 +14,29 @@ guard. The old app gets spiazzata.
 Written in Kotlin with Jetpack Compose. Android 8.0 (API 26) or newer. It is not made by, endorsed
 by, or supported by Piazzetta or Micronova.
 
+## Why this exists / Perché esiste
+
+**English.** Spiazzetta comes out of plain frustration. The official MyPiazzetta app is terrible at
+the things an owner does every day: it takes a dozen taps to change one setting, the screens fight
+you on a small phone, the state you see is stale, and the stove sometimes does not do what you
+asked with no sign of why. Worse, the app never checks whether a command actually landed - it
+posts the write to the cloud and moves on, so a fan speed or a setpoint can silently do nothing and
+you only find out by walking over to the stove. This app exists to fix the everyday tasks: one tap
+per change, every command sent to the stove, read back, retried, and reported as confirmed or
+rejected. It is not a reimplementation of the official app for its own sake; it is what the
+everyday use of that stove should have felt like in the first place.
+
+**Italiano.** Spiazzetta nasce dalla frustrazione, pura e semplice. L'app ufficiale MyPiazzetta è
+pessima nelle cose che un proprietario fa tutti i giorni: servono dieci tocchi per cambiare una
+impostazione, le schermate si incastrano su un telefono piccolo, lo stato che vedi è vecchio, e a
+volte la stufa non fa quello che hai chiesto senza dirti perché. Peggio ancora: l'app non verifica
+mai se un comando è davvero arrivato - manda la scrittura al cloud e va avanti, quindi una velocità
+ventola o una temperatura impostata possono non fare assolutamente nulla e tu lo scopri solo
+andando davanti alla stufa. Questa app esiste per sistemare i compiti di ogni giorno: un tocco per
+ogni modifica, ogni comando inviato alla stufa, riletto, ritentato e riportato come confermato o
+rifiutato. Non è una riscrittura dell'app ufficiale tanto per farla; è come l'uso quotidiano di
+quella stufa sarebbe dovuto essere fin dall'inizio.
+
 ## Unofficial and use at your own risk
 
 > **This app is unofficial.** It has no affiliation with Piazzetta, Micronova, or
@@ -152,8 +175,26 @@ same shape the app consumes, is [docs/registers/p220m.json](docs/registers/p220m
 
 ## Disclaimer and license
 
-The code is released under the MIT license, Copyright (c) 2026 Marco Bersani. The full license text
-is in [LICENSE](LICENSE).
+**License: PolyForm Noncommercial 1.0.0.** Copyright (c) 2026 Marco Bersani. The full text is in
+[LICENSE](LICENSE).
+
+**Personal, noncommercial use only.** You are free to build it, install it, use it, study it, change
+it, and share it with other stove owners, as long as nobody is making money from it and it is not
+used in the course of a business.
+
+**Commercial use is not granted.** Companies - Piazzetta, Micronova, Omniaweb, their distributors,
+dealers, installers, and service partners included - may not sell this app, bundle it with a
+product, ship it to customers, host it, or use it in support of anything commercial. Manufacturing
+the same stove ecosystem does not grant that right: the code and the technique here belong to the
+author.
+
+**If a company wants to use this technology, it pays for a license.** That includes embedding it,
+rebranding it, using it as a reference implementation, or building a product on top of it. Open an
+issue on this repository and ask: commercial licensing is available at a price agreed case by case.
+There is no public price list and no free commercial exception.
+
+The MIT license this project started under no longer applies; everything in this repository is
+covered by the terms in [LICENSE](LICENSE) from this commit onwards.
 
 Spiazzetta is an unofficial app. It has no affiliation with, and is not endorsed or supported by,
 Piazzetta, Micronova, or Omniaweb. It is provided as is, without warranty of any kind, express or

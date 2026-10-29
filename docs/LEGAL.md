@@ -52,3 +52,9 @@ The app uses the same cloud service as the official MyPiazzetta app. It is not t
 ## Before first use
 
 Spiazzetta shows this disclaimer before any other screen and blocks the app until you accept it. Acceptance is stored on your device together with the disclaimer version and the time, and a new version of the disclaimer has to be accepted again.
+
+## License and commercial use
+
+The code is licensed under the PolyForm Noncommercial License 1.0.0, Copyright (c) 2026 Marco Bersani; the full text is in [LICENSE](../LICENSE). Personal and noncommercial use is granted. **Commercial use is not:** no company, Piazzetta, Micronova and Omniaweb included, may sell, bundle, host, or otherwise use this software in the course of business. A company that wants this technology has to license it from the author for a fee, arranged through this repository's GitHub issues.
+
+This legal notice covers the app and how it is used. The license covers the code. Both apply at once, and neither one narrows the other.
