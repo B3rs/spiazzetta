@@ -183,6 +183,8 @@ function values() {
     ],
   };
   answer.Items.push(32956, 32960);
+  answer.Values.length = 20;
+  answer.Values.push(state.qualityLow, state.qualityHigh);
   for (let i = 1; i <= 6; i += 1) {
     answer.Items.push(59 + 1 + 0);
   }
